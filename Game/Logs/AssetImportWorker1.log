@@ -1,0 +1,775 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.55f1 (9f374180d209) revision 10434369'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 7519 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.55f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/vel55/Desktop/Game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60110
+Successfully changed project path to: C:/Users/vel55/Desktop/Game
+C:/Users/vel55/Desktop/Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25284]  Target information:
+
+Player connection [25284]  * "[IP] 192.168.200.142 [Port] 0 [Flags] 2 [Guid] 2865630253 [EditorId] 2865630253 [Version] 1048832 [Id] WindowsEditor(7,ChangIn) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25284] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25284] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 200.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.55f1 (9f374180d209)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/vel55/Desktop/Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   31.0.15.5241
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011079 seconds.
+- Loaded All Assemblies, in  0.506 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.364 seconds
+Domain Reload Profiling: 868ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (144ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (365ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (198ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.642 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.779 seconds
+Domain Reload Profiling: 2417ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (1292ms)
+		LoadAssemblies (1192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (190ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (780ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (585ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (427ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3569.
+Memory consumption went from 118.4 MB to 118.3 MB.
+Total: 2.821600 ms (FindLiveObjects: 0.291600 ms CreateObjectMapping: 0.079200 ms MarkObjects: 2.333800 ms  DeleteObjects: 0.115800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 105817.073161 seconds.
+  path: Assets/Prefabs/Fourth Road.prefab
+  artifactKey: Guid(7a3c7beb3c71c904783ac5316fa47c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fourth Road.prefab using Guid(7a3c7beb3c71c904783ac5316fa47c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'febb65a361196defa540b3a487dc9eb0') in 0.681376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 239
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Prefabs/Second Road.prefab
+  artifactKey: Guid(2aba5d932ac46be4bb84e43e2bf1a6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Second Road.prefab using Guid(2aba5d932ac46be4bb84e43e2bf1a6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0df006bf25083bec11e104d62359694c') in 0.059010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 270
+========================================================================
+Received Import Request.
+  Time since last request: 88.781433 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building Sky_big_color02.prefab
+  artifactKey: Guid(694e1313d3f12e84aaf959ff6960ddaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building Sky_big_color02.prefab using Guid(694e1313d3f12e84aaf959ff6960ddaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7116e8b73f33b477ace23146523f85a4') in 0.043265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Bar.prefab
+  artifactKey: Guid(3667b1c4d7f532647b9156782c0c80f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Bar.prefab using Guid(3667b1c4d7f532647b9156782c0c80f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e1150f4dfe1318edafdf2d1f3725244b') in 0.026106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_House_01_color03.prefab
+  artifactKey: Guid(92dcd407350173049ab8c86482fadf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_House_01_color03.prefab using Guid(92dcd407350173049ab8c86482fadf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '653e4f3766da8be641d809171bc5fb0d') in 0.025356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Music Store.prefab
+  artifactKey: Guid(1682119d19a954f4a8020f36112606ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Music Store.prefab using Guid(1682119d19a954f4a8020f36112606ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b0e5ab40364e85f80d670b88d96844f9') in 0.028994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_House_03_color02.prefab
+  artifactKey: Guid(e2ffb9183a7dce445adfb3d2d4d7bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_House_03_color02.prefab using Guid(e2ffb9183a7dce445adfb3d2d4d7bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '31ef2f90c10523427acc5b611e572e47') in 0.023756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building Sky_small_color03.prefab
+  artifactKey: Guid(35807f23e7899e541b60b2fb2bbb51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building Sky_small_color03.prefab using Guid(35807f23e7899e541b60b2fb2bbb51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ddeb794e22b43f99442e3f7c87e3c7d1') in 0.019656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Fruits  Shop.prefab
+  artifactKey: Guid(931fa17f0ab17504bbfc8903e54e6a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Fruits  Shop.prefab using Guid(931fa17f0ab17504bbfc8903e54e6a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b279322e5391f275dc66772b88ac7385') in 0.025333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_House_02_color01.prefab
+  artifactKey: Guid(142c9543c08ae014bad9d177ad54a989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_House_02_color01.prefab using Guid(142c9543c08ae014bad9d177ad54a989) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9feeabe4330959f9c6ba3aa378ca189b') in 0.021450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Fast Food.prefab
+  artifactKey: Guid(4dc7028a3a83758439585b7c7c98cb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Fast Food.prefab using Guid(4dc7028a3a83758439585b7c7c98cb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '77a0cb24acf08400bf8c08de569da05f') in 0.018894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Factory.prefab
+  artifactKey: Guid(f6674c1362ba984468bc1e71a2323d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Factory.prefab using Guid(f6674c1362ba984468bc1e71a2323d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '19365d00114c193bc0706c376049ef99') in 0.022661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Gas Station.prefab
+  artifactKey: Guid(260808cfd9b21994d8c3007a7bc9934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Gas Station.prefab using Guid(260808cfd9b21994d8c3007a7bc9934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ee2667bd0bce37036a59b5a37501fea') in 0.022010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_House_02_color03.prefab
+  artifactKey: Guid(3a0bc997d3424474696ad8d2e7d684ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_House_02_color03.prefab using Guid(3a0bc997d3424474696ad8d2e7d684ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f0e9dacaf9b26b2c001743a9ed6d29a') in 0.018653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Drug Store.prefab
+  artifactKey: Guid(5dd9f8de2583df543859013bcdc56639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Drug Store.prefab using Guid(5dd9f8de2583df543859013bcdc56639) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00f5c9f8db94231198bd55b757411fb4') in 0.021867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Residential_color01.prefab
+  artifactKey: Guid(921b4e33443ab5943afa3c4841e74cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Residential_color01.prefab using Guid(921b4e33443ab5943afa3c4841e74cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '365214d847694ece0ce18ebb402f084d') in 0.020340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_House_04_color03.prefab
+  artifactKey: Guid(b8365ae9a93a2e8498ae3c2646f3c455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_House_04_color03.prefab using Guid(b8365ae9a93a2e8498ae3c2646f3c455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50e0c33b07fb230180354c84bff1da71') in 0.021218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Coffee Shop.prefab
+  artifactKey: Guid(e1d9101af5d96d94ca99efe2de0bac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Coffee Shop.prefab using Guid(e1d9101af5d96d94ca99efe2de0bac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2985bb40e39053431a86059b21908b26') in 0.020825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_House_04_color01.prefab
+  artifactKey: Guid(63243ce2fd6113e4384abc2d949cb799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_House_04_color01.prefab using Guid(63243ce2fd6113e4384abc2d949cb799) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7331d8553aabea48ddbc13c66b273206') in 0.020738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.350274 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Residential_color03.prefab
+  artifactKey: Guid(0064eb002f3790247969e12119bbf9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Residential_color03.prefab using Guid(0064eb002f3790247969e12119bbf9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '986390c28dc1686d20996f04dae2f8c0') in 0.019092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Super Market.prefab
+  artifactKey: Guid(c3e95e72d6dba334594c3c5c37fcf18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Super Market.prefab using Guid(c3e95e72d6dba334594c3c5c37fcf18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '14053cfa39c81dca714694314e8c0c5d') in 0.022111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Restaurant.prefab
+  artifactKey: Guid(bc532b78ce09f234ea01da2deecfe035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Restaurant.prefab using Guid(bc532b78ce09f234ea01da2deecfe035) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9df771869414fa38aa391aa741139666') in 0.020299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.343497 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building Sky_small_color01.fbx
+  artifactKey: Guid(47a83e21f77098142be8ace3346172ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building Sky_small_color01.fbx using Guid(47a83e21f77098142be8ace3346172ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cbdb7558813a1d91d7fb2143aa2b2082') in 0.403420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Music Store.fbx
+  artifactKey: Guid(e6c7be1b4691ca441abe64159118907b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Music Store.fbx using Guid(e6c7be1b4691ca441abe64159118907b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd412a30bc793c90bf316e7350d09f1c7') in 0.029062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Bakery.fbx
+  artifactKey: Guid(ea9803764c3c1e74b83f6dda1cfa0885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Bakery.fbx using Guid(ea9803764c3c1e74b83f6dda1cfa0885) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'be6bdd3a84058f02765ffc93802732d8') in 0.026445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Pizza.fbx
+  artifactKey: Guid(d015ce89362e9504890f33e36733d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Pizza.fbx using Guid(d015ce89362e9504890f33e36733d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '409126619a4dd842cec73638cd73b8b8') in 0.035339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_House_03_color01.fbx
+  artifactKey: Guid(4290fe0579b63f4429763c6c6d2f242d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_House_03_color01.fbx using Guid(4290fe0579b63f4429763c6c6d2f242d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd5cc8fcf1e2dd620fb37d0055e3d7e93') in 0.028044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Fast Food.fbx
+  artifactKey: Guid(4ddf9dbec6534a14a9612193ee06f4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Fast Food.fbx using Guid(4ddf9dbec6534a14a9612193ee06f4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e6908f2d4135e8cd378e25f8a4fe3deb') in 0.027145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Natures_Fir Tree.fbx
+  artifactKey: Guid(a4051385261ccbb45a4060203fd8d66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Natures_Fir Tree.fbx using Guid(a4051385261ccbb45a4060203fd8d66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0c15caa2418f413d74015039aaad8f4') in 0.029505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Natures_Bush_03.fbx
+  artifactKey: Guid(878eb4575d3db2143bff9ebf5c266974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Natures_Bush_03.fbx using Guid(878eb4575d3db2143bff9ebf5c266974) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '04731fb724d84c6ff7b80bbb50d9a132') in 0.025501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Restaurant.fbx
+  artifactKey: Guid(efc62b24c745a1f469c0d1453dfb41e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Restaurant.fbx using Guid(efc62b24c745a1f469c0d1453dfb41e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '35997973a98c0068dd89eff1965750a1') in 0.024583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Clothing.fbx
+  artifactKey: Guid(6f6936b8f5098f34ab9d2dbe641716f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Clothing.fbx using Guid(6f6936b8f5098f34ab9d2dbe641716f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ee666b94d4121097c962950585e0f04c') in 0.023947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Gas Station.fbx
+  artifactKey: Guid(25449c1a4c4ca004ead70b6c0889695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Gas Station.fbx using Guid(25449c1a4c4ca004ead70b6c0889695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e7d2bd17be58fed7c6781a43da4ff3cb') in 0.024292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Natures_Bush_02.fbx
+  artifactKey: Guid(f65d01a310db1b74582d89cdcb63fe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Natures_Bush_02.fbx using Guid(f65d01a310db1b74582d89cdcb63fe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8e80e89c0f742472b4714506dca0d35b') in 0.012583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Gift Shop.fbx
+  artifactKey: Guid(4a3db8768f20288458711d0f979974bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Gift Shop.fbx using Guid(4a3db8768f20288458711d0f979974bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd08b72fd071026500e173ff64ee18714') in 0.027927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Stadium.fbx
+  artifactKey: Guid(8d799610519b6274c8bb35a7fd95f5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Stadium.fbx using Guid(8d799610519b6274c8bb35a7fd95f5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e65dff0b9322380afbcb17b8afa1b1d') in 0.030225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Natures_Grass Fence.fbx
+  artifactKey: Guid(f84563c4522be5e4bbef79b6a74da743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Natures_Grass Fence.fbx using Guid(f84563c4522be5e4bbef79b6a74da743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cfdc88378a3c225e210fe94529e65760') in 0.034317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Drug Store.fbx
+  artifactKey: Guid(1860d34e1bb20454eafce0acf664508b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Drug Store.fbx using Guid(1860d34e1bb20454eafce0acf664508b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b4bea10d523d0e0ced9a64657edb814') in 0.023159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Natures_Cube Tree.fbx
+  artifactKey: Guid(01f6af96e305cdf409f4be242c9178e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Natures_Cube Tree.fbx using Guid(01f6af96e305cdf409f4be242c9178e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '51c18e042c405f545f2ad7cc3283160d') in 0.030885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.524847 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_BillBoard_large.prefab
+  artifactKey: Guid(653e28c8a1ae11240a6cdaac2f9ee8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_BillBoard_large.prefab using Guid(653e28c8a1ae11240a6cdaac2f9ee8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '66d0221bd5b450ef75e9096135b54a9f') in 0.021033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Street Light.prefab
+  artifactKey: Guid(b8ee657c6800ab849bb30b4375d02323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Street Light.prefab using Guid(b8ee657c6800ab849bb30b4375d02323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '04f6ce6ca1715f2084dd97302a308b2e') in 0.020010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Windmill.prefab
+  artifactKey: Guid(0b6fafa63b69b174584365f2641586a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Windmill.prefab using Guid(0b6fafa63b69b174584365f2641586a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6570f153208fb23979d6629832ee33d5') in 0.024069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Traffic Sign_speed limit.prefab
+  artifactKey: Guid(6ade71c5c1c1d014895f70f40ed67ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Traffic Sign_speed limit.prefab using Guid(6ade71c5c1c1d014895f70f40ed67ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'be2f61fe1f9e0db9ce517d93196180d4') in 0.020865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Coffee shop chair.prefab
+  artifactKey: Guid(97229e82747352a43b48688ec573f8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Coffee shop chair.prefab using Guid(97229e82747352a43b48688ec573f8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4f3d710ec498013095b4451b1b7f43b7') in 0.027505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Roof Helipad.prefab
+  artifactKey: Guid(796948bfa75e5ee4ba5a68eabfa08ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Roof Helipad.prefab using Guid(796948bfa75e5ee4ba5a68eabfa08ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2af4274651055e6c3fb8e9d2d5d9658') in 0.025695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Hydrant.prefab
+  artifactKey: Guid(e0e851c58997b9c438fae494e3412749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Hydrant.prefab using Guid(e0e851c58997b9c438fae494e3412749) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f6727283b235b00c02027a8c6027746f') in 0.021392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Dustbin.prefab
+  artifactKey: Guid(d59a4f6080634af41a616bc51af1d2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Dustbin.prefab using Guid(d59a4f6080634af41a616bc51af1d2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '534b56148723c161e9de1dfb8b3c743f') in 0.021436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Roof prop air.prefab
+  artifactKey: Guid(120449a04911a924ca1239be382ff0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Roof prop air.prefab using Guid(120449a04911a924ca1239be382ff0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7a33a3b9ea3ddc64d707ecc1e967f853') in 0.024661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.198595 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building Sky_big_color03.png
+  artifactKey: Guid(68678103389a4c1458454df2673310fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building Sky_big_color03.png using Guid(68678103389a4c1458454df2673310fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '78d25d6223df06b40749d7095c5c870d') in 0.084212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_House_01_color02.png
+  artifactKey: Guid(330683d110e88b7478da95a46f14a30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_House_01_color02.png using Guid(330683d110e88b7478da95a46f14a30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df98306cf1e818c219d026e903df98be') in 0.019004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_House_01_color01.png
+  artifactKey: Guid(993a27af83ba79149af2300cdf16973a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_House_01_color01.png using Guid(993a27af83ba79149af2300cdf16973a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06d19bf5dd3fcb2ee6048976988f0ca5') in 0.016807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_House_04_color01.png
+  artifactKey: Guid(8e78cd99b5b34a547a2ef279698e7786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_House_04_color01.png using Guid(8e78cd99b5b34a547a2ef279698e7786) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '22b4b0524aac5706e25092985d2cee5d') in 0.019376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Gas Station.png
+  artifactKey: Guid(f1067f42b9db674419e1ca765b447e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Gas Station.png using Guid(f1067f42b9db674419e1ca765b447e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e4c0371bc72db1b40ddaa43d2c871cee') in 0.016848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Factory.png
+  artifactKey: Guid(952048546b1814f4480519f6d11e8c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Factory.png using Guid(952048546b1814f4480519f6d11e8c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e0f400d47b73730ed43e80aac0708561') in 0.016384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_House_02_color03.png
+  artifactKey: Guid(c8eafda441adc3e46951fc68b9da655a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_House_02_color03.png using Guid(c8eafda441adc3e46951fc68b9da655a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68afd9a7626ae3ab6a7f38b30624e868') in 0.017726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Auto Service.png
+  artifactKey: Guid(b3ce51c34fdf8474d9ec1d87f9433000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Auto Service.png using Guid(b3ce51c34fdf8474d9ec1d87f9433000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd22ff34426838c52771c6b5dcece3d91') in 0.017537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Bar.png
+  artifactKey: Guid(dcf28aa94c297d441b5bb2e655c5b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Bar.png using Guid(dcf28aa94c297d441b5bb2e655c5b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd5089ad29083c2f8387671bc5424e30a') in 0.018304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Chicken Shop.png
+  artifactKey: Guid(b648d0554709c6c4e9269e311432c5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Chicken Shop.png using Guid(b648d0554709c6c4e9269e311432c5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5e154602f9718f02b17902686473c430') in 0.016213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
