@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\InterfaceManager.cs" />
     <Compile Include="Assets\Scripts\Runner.cs" />
+    <Compile Include="Assets\Scripts\Singleton.cs" />
     <Compile Include="Assets\Scripts\Road.cs" />
     <Compile Include="Assets\Scripts\InteractZone.cs" />
     <Compile Include="Assets\Scripts\RoadManager.cs" />
