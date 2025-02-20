@@ -46,7 +46,7 @@ public class Runner : MonoBehaviour
             {
                 roadLine--;
 
-                animator.Play("Left Aviod");
+                animator.Play("Left Avoid");
             }
         }
 
@@ -56,7 +56,7 @@ public class Runner : MonoBehaviour
             {
                 roadLine++;
 
-                animator.Play("RightAviod");
+                animator.Play("Right Avoid");
             }
         }
     }

@@ -353,10 +353,13 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/InteractZone.cs"
-"Assets/Scripts/InterfaceManager.cs"
+"Assets/Scripts/Managers/AudioManager.cs"
+"Assets/Scripts/Managers/GameManager.cs"
+"Assets/Scripts/Managers/InterfaceManager.cs"
+"Assets/Scripts/Managers/RoadManager.cs"
 "Assets/Scripts/Road.cs"
-"Assets/Scripts/RoadManager.cs"
 "Assets/Scripts/Runner.cs"
+"Assets/Scripts/Select.cs"
 "Assets/Scripts/Singleton.cs"
 -langversion:9.0
 /deterministic
