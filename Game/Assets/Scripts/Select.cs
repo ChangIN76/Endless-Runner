@@ -9,7 +9,7 @@ public class Select : MonoBehaviour
 
     private void Awake()
     {
-        buttenText = GetComponent<Text>();
+        buttenText = GetComponentInChildren<Text>();
     }
 
     public void OnEnter()
