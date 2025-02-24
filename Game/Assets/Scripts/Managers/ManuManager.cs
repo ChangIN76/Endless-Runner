@@ -6,7 +6,7 @@ public class ManuManager : MonoBehaviour
 {
     public void Execute()
     {
-        StartCoroutine(SceneryManager.Instance.AsyncLoad(1));
+        StartCoroutine(SceneryManager.Instance.AsyncLoad(1));      
     }
 
     public void Quit()
