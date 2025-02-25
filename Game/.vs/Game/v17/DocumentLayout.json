@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\vel55\\desktop\\endless-runner\\game\\assets\\scripts\\managers\\mousemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\mousemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\vel55\\desktop\\endless-runner\\game\\assets\\scripts\\managers\\obstaclemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\obstaclemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\vel55\\desktop\\endless-runner\\game\\assets\\scripts\\runner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\runner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\vel55\\desktop\\endless-runner\\game\\assets\\scripts\\managers\\speedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\speedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\vel55\\desktop\\endless-runner\\game\\assets\\scripts\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\assets\\scripts\\managers\\scenerymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\scenerymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\assets\\scripts\\managers\\manumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\manumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\assets\\scripts\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\assets\\scripts\\road.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\road.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\assets\\scripts\\managers\\roadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\roadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,106 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Runner.cs",
-              "DocumentMoniker": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Runner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Runner.cs",
-              "ToolTip": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Runner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Runner.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAADwv1YAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ObstacleManager.cs",
+              "DocumentMoniker": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\ObstacleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\ObstacleManager.cs",
+              "ToolTip": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\ObstacleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\ObstacleManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T12:27:03.656Z",
+              "WhenOpened": "2025-02-25T12:23:04.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "InputManager.cs",
-              "DocumentMoniker": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\InputManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\InputManager.cs",
-              "ToolTip": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\InputManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\InputManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxUAAAAAAAAAAAAAAA==",
+              "Title": "RoadManager.cs",
+              "DocumentMoniker": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\RoadManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\RoadManager.cs",
+              "ToolTip": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\RoadManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\RoadManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T12:03:47.131Z",
+              "WhenOpened": "2025-02-25T11:27:19.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpeedManager.cs",
+              "DocumentMoniker": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\SpeedManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\SpeedManager.cs",
+              "ToolTip": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\SpeedManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\SpeedManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:05:02.694Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MouseManager.cs",
-              "DocumentMoniker": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\MouseManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\MouseManager.cs",
-              "ToolTip": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\MouseManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\MouseManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T11:17:33.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SceneryManager.cs",
-              "DocumentMoniker": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\SceneryManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\SceneryManager.cs",
-              "ToolTip": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\SceneryManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\SceneryManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T09:04:38.999Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
-              "ToolTip": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T11:03:42.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ManuManager.cs",
-              "DocumentMoniker": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\ManuManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\ManuManager.cs",
-              "ToolTip": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Managers\\ManuManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\ManuManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T11:03:27.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Singleton.cs",
-              "DocumentMoniker": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Singleton.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Singleton.cs",
-              "ToolTip": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Singleton.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Singleton.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAwB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T09:02:00.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Road.cs",
-              "DocumentMoniker": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Road.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Road.cs",
-              "ToolTip": "C:\\Users\\vel55\\Desktop\\Endless-Runner\\Game\\Assets\\Scripts\\Road.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Road.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T11:05:05.537Z"
             }
           ]
         }
