@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\Managers\SpeedManager.cs" />
     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Managers\MouseManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\ResourcesManager.cs" />
     <Compile Include="Assets\Scripts\Managers\InterfaceManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ObstacleManager.cs" />
     <Compile Include="Assets\Scripts\Runner.cs" />
