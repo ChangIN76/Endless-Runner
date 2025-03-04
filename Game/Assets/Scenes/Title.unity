@@ -270,6 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttenText: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 1f384dd6bf405c84c83695040523bb16, type: 3}
 --- !u!114 &77849751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -626,6 +627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttenText: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 1f384dd6bf405c84c83695040523bb16, type: 3}
 --- !u!114 &274875015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1053,6 +1055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenImage: {fileID: 1283810889}
+  audioClip: {fileID: 8300000, guid: 9121a314027363c4e8c0c442c85e91e3, type: 3}
   fadeSpeed: 1.5
 --- !u!114 &1111988195
 MonoBehaviour:
@@ -1933,7 +1936,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 1913937884}
   - {fileID: 1709810989}
-  - {fileID: 1111988198}
   - {fileID: 1603862108}
   - {fileID: 216406655}
   - {fileID: 1932406439}
@@ -1942,4 +1944,5 @@ SceneRoots:
   - {fileID: 755596357}
   - {fileID: 555361179}
   - {fileID: 1512410975}
+  - {fileID: 1111988198}
   - {fileID: 807795868}

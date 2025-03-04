@@ -1,8 +1,6 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 public class PositionManager : MonoBehaviour
 {
@@ -15,9 +13,9 @@ public class PositionManager : MonoBehaviour
     [SerializeField] ObstacleManager obstacleManager;
     [SerializeField] float[] randomPositionZ = new float[16];
 
-    public void Awake()
+    private void Awake()
     {
-        for(int i = 0; i < randomPositionZ.Length; i++)
+        for (int i = 0; i < randomPositionZ.Length; i++)
         {
             randomPositionZ[i] = i * 2.5f + -10.0f;
         }
@@ -25,7 +23,7 @@ public class PositionManager : MonoBehaviour
 
     public IEnumerator SetPosition()
     {
-        while(true)
+        while (GameManager.Instance.State)
         {
             yield return new WaitForSeconds(2.5f);
 
@@ -43,9 +41,7 @@ public class PositionManager : MonoBehaviour
     {
         if (coroutine == null)
         {
-            Debug.Log(Coroutine);
-
-            coroutine = StratCoroutine(SetPosition());
+            coroutine = StartCoroutine(SetPosition());
         }
 
         index = (index + 1) % parentRoads.Length;
@@ -55,8 +51,4 @@ public class PositionManager : MonoBehaviour
         transform.localPosition += new Vector3(0, 0, 40);
     }
 
-    private Coroutine StratCoroutine(IEnumerator enumerator)
-    {
-        throw new NotImplementedException();
-    }
 }

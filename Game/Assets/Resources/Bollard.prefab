@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 682651933695003148}
   - component: {fileID: 7449344985139897389}
+  - component: {fileID: 322551279715838787}
   m_Layer: 0
   m_Name: Bollard
   m_TagString: Untagged
@@ -56,6 +57,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.35, y: 1, z: 0.1}
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &322551279715838787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158352753535455414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b456d1123ff3a314aba8b0e5cdd3df21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &466720071795633786
 GameObject:
   m_ObjectHideFlags: 0

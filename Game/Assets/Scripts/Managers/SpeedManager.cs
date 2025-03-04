@@ -21,7 +21,7 @@ public class SpeedManager : MonoBehaviour
 
     private IEnumerator Increase()
     {
-        while (Speed < limitSpeed)
+        while (GameManager.Instance.State && Speed < limitSpeed)
         {
             yield return waitForSeconds;
 

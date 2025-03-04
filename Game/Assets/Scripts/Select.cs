@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Select : MonoBehaviour
 {
     [SerializeField] Text buttenText;
+    [SerializeField] AudioClip audioClip;
 
     private void Awake()
     {
@@ -14,6 +15,8 @@ public class Select : MonoBehaviour
 
     public void OnEnter()
     {
+        AudioManager.Instance.Listen(audioClip);
+
         buttenText.fontSize = 90;
     }
 

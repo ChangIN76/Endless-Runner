@@ -6,7 +6,7 @@ public class GameManager : Singleton<GameManager>
 {
     private bool state;
 
-    public bool State { get { return State; } }
+    public bool State { get { return state; } }
 
     public void Execute()
     {

@@ -35,6 +35,8 @@ public class Runner : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (GameManager.Instance.State == false) return;
+
         Move();
     }
 
@@ -75,11 +77,28 @@ public class Runner : MonoBehaviour
         );
     }
 
+    public void Die()
+    {
+        GameManager.Instance.Finish();
+
+        animator.Play("Die");
+    }
+
     private void OnDisable()
     {
         if (InputManager.Instance != null)
         {
             InputManager.Instance.action -= OnKeyUpdate;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Obstacle obstacle = other.GetComponent<Obstacle>();
+
+        if(obstacle != null)
+        {
+            Die();
         }
     }
 

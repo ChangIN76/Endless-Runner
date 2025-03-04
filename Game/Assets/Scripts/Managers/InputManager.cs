@@ -9,6 +9,8 @@ public class InputManager : Singleton<InputManager>
 
     private void Update()
     {
+        if (GameManager.Instance.State == false) return;
+
         if (Input.anyKey == false)
         {
             return;
@@ -18,12 +20,5 @@ public class InputManager : Singleton<InputManager>
         {
             action.Invoke();
         }
-    }
-
-    public void OnKeyUpdate()
-    {
-
-    }
-
-    
+    } 
 }
