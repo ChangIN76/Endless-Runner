@@ -77,11 +77,11 @@ public class Runner : MonoBehaviour
         );
     }
 
-    public void Die()
+    public void Die ()
     {
         GameManager.Instance.Finish();
 
-        animator.Play("Die");
+        animator.Play("Die ");
     }
 
     private void OnDisable()
@@ -98,7 +98,7 @@ public class Runner : MonoBehaviour
 
         if(obstacle != null)
         {
-            Die();
+            Die ();
         }
     }
 
