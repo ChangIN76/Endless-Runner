@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Xml.Serialization;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.UIElements;
 
 public enum RodaLine
@@ -84,6 +85,11 @@ public class Runner : MonoBehaviour
         animator.Play("Die ");
     }
 
+    public void Synchoronization()
+    {
+        animator.speed = SpeedManager.Speed / 20;
+    }
+
     private void OnDisable()
     {
         if (InputManager.Instance != null)
@@ -101,5 +107,4 @@ public class Runner : MonoBehaviour
             Die ();
         }
     }
-
 }

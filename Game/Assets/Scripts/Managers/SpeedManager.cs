@@ -1,35 +1,40 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 
 public class SpeedManager : MonoBehaviour
 {
-    [SerializeField] private float InstallSpeed = 20f; // 초기 속도
-    [SerializeField] private float limitSpeed = 50f;   // 최대 속도
+    [SerializeField] UnityEvent callback;
 
-    WaitForSeconds waitForSeconds = new WaitForSeconds(2.5f); // 2.5초 대기
+    [SerializeField] static float speed;   // 초기 속도
+    [SerializeField] float limitSpeed = 50.0f;   // 최대 속도
 
-    public static float Speed { get; private set; } // 현재 속도를 저장하는 static 변수
+    public static float Speed
+    { 
+        get { return speed; }
+    } 
 
     private void Awake()
     {
-        Speed = InstallSpeed; // 초기 속도 설정
+        speed = 20.0f; // 초기 속도 설정
 
         StartCoroutine(Increase()); // 속도 증가 코루틴 시작
     }
 
-    private IEnumerator Increase()
+    IEnumerator Increase()
     {
         while (GameManager.Instance.State && Speed < limitSpeed)
-        {
+        {      
             yield return CoroutineCache.WaitForSecond(2.5f);
 
-            Speed += 2; // 속도 증가
+            speed += 2; // 속도 증가      
 
-            Speed = Mathf.Min(Speed, limitSpeed); // 최대 속도 제한
-
-            Debug.Log(Speed);
+            if (callback != null)
+            {
+                callback.Invoke();
+            }
         }
     }
 }
