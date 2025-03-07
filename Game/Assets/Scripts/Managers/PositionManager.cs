@@ -25,7 +25,7 @@ public class PositionManager : MonoBehaviour
     {
         while (GameManager.Instance.State)
         {
-            yield return CoroutineCache.WaitForSecond(2.5f);
+            yield return CoroutineCache.WaitForSecond(TimeManager.Instance.ActiveTime);
 
             transform.localPosition = new Vector3(0, 0, randomPositionZ[Random.Range(0, randomPositionZ.Length)]);
 
