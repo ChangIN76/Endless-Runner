@@ -13,6 +13,11 @@ public class AudioManager : Singleton<AudioManager>
         effectAudioSource.PlayOneShot(audioClip);
     }
 
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
     void OnSceneLoaded(Scene scene, LoadSceneMode loadSceneMode)
     {
         sceneryAudioSource.clip = ResourcesManager.Instance.Load<AudioClip>(scene.name);
@@ -20,5 +25,10 @@ public class AudioManager : Singleton<AudioManager>
         sceneryAudioSource.loop = true;
 
         sceneryAudioSource.Play();
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 }

@@ -373,6 +373,7 @@
 "Assets/Scripts/Runner.cs"
 "Assets/Scripts/Select.cs"
 "Assets/Scripts/Singleton.cs"
+"Assets/Scripts/Timer.cs"
 -langversion:9.0
 /deterministic
 /optimize+

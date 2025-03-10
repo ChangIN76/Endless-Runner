@@ -9,7 +9,7 @@ public class SpeedManager : MonoBehaviour
     [SerializeField] UnityEvent callback;
 
     [SerializeField] static float speed;   // 초기 속도
-    [SerializeField] float limitSpeed = 50.0f;   // 최대 속도
+    [SerializeField] float limitSpeed = 60.0f;   // 최대 속도
 
     public static float Speed
     { 
@@ -18,7 +18,7 @@ public class SpeedManager : MonoBehaviour
 
     private void Awake()
     {
-        speed = 20.0f; // 초기 속도 설정
+        speed = 30.0f; // 초기 속도 설정
 
         StartCoroutine(Increase()); // 속도 증가 코루틴 시작
     }
